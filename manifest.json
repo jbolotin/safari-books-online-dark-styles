@@ -1,0 +1,13 @@
+{
+  "name": "Dark styles for Safari Books Online",
+  "version": "1.0",
+  "description": "Makes Safari Books Online much easier on eyes.",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://learning.oreilly.com/library/view/*"],
+      "css": ["style.css"]
+    }
+  ],
+  "manifest_version": 2
+}
